@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
 #Create a postgres sql engine instance
-engine = create_engine("postgresql+psycopg2://teste:123456@localhost:5432/postgres")
+engine = create_engine("**************")
 
 # Create a DeclarativeMeta instance
 Base = declarative_base()
